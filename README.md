@@ -10,7 +10,16 @@ A list of Google Dorks for Bug Bounty, Web Application Security, and Pentesting
 </p>
 
 ---
-
+api
+site:target.com inurl:apikey
+site:target.com inurl:api_key
+site:target.com inurl:apidocs
+site:target.com inurl:api_secret
+site:target.com inurl:x-api-key
+site:target.com inurl:"/v1"
+site:target.com inurl:"/api"
+site:target.com inurl:"/graphql"
+site:target.com intitle:"api*"
 ### Broad domain search w/ negative search
 
 > site:example.com -www -shop -share -ir -mfa
